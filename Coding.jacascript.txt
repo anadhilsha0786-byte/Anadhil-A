@@ -1,0 +1,7 @@
+// Simple form handler (demo)
+function sendMessage(event) {
+  event.preventDefault(); // Stop page reload
+
+  alert("✅ Your message has been sent successfully!");
+  return false;
+}

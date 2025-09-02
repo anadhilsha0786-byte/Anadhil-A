@@ -1,0 +1,19 @@
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom hover effect for navbar */
+nav ul li a {
+  transition: color 0.3s ease;
+}
+
+/* Contact form styling */
+form input, form textarea {
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+  border: 2px solid #2563eb; /* Tailwind's blue-600 */
+}
